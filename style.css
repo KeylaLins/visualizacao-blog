@@ -1,3 +1,6 @@
+html{
+  font-size: 62.5%;
+}
 * {
   text-decoration: none;
   padding: 0;
@@ -6,7 +9,7 @@
 
 .fundo {
   background-color: #f4d04e;
-  color: #000;
+  color: #111;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -21,9 +24,9 @@
   flex-direction: column;
   align-items: start;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #111;
   padding: 24px;
-  box-shadow: 20px 20px #000;
+  box-shadow: 10px 10px #111;
   border-radius: 20px;
 }
 
@@ -42,29 +45,33 @@
 
 .informacoes span,
 .informacoes p {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .informacoes p:first-child {
   background-color: #f4d04e;
-  font-weight: 800;
+  font-weight: 700;
   padding: 4px 12px;
   border-radius: 4px;
 }
 
 .publicacao {
-  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .informacoes a {
-  color: #f4d04e;
-  font-size: 24px;
+  color: #111;
+  font-size: 2.4rem;
   font-weight: 700;
+  transition: 0.3s;
+}
+.informacoes a:hover{
+  color: #f4d04e;
 }
 
 .informacoes .descricao {
   color: #7f7f7f;
-  font-size: 16px;
+  font-size: 1.6rem;
   max-width: 36ch;
 }
 
@@ -72,7 +79,7 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
